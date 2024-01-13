@@ -1,4 +1,3 @@
-//librerie esterne tipo react poi componenti interni poi stili poi risorse o file
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import MyNavbar from './components/MyNavBar';
 import SearchPage from './components/SearchPage';

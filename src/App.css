@@ -1,20 +1,26 @@
-.my-navbar{
-    background: linear-gradient(206deg, rgba(2,0,36,1) 0%, rgba(83,126,202,1) 50%, rgba(0,255,254,1) 100%);
-}
-
+/* APP COMPONENT */
 .App {
     background-image: url("https://images.pexels.com/photos/209831/pexels-photo-209831.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
 }
+/* NAVBAR COMPONENT */
+.my-navbar{
+    background: linear-gradient(206deg, rgba(2,0,36,1) 0%, rgba(83,126,202,1) 50%, rgba(0,255,254,1) 100%);
+}
 
-.full-width{
-    width: 100vW;
+/* FORECAST COMPONENTS */
+.today-component{
+    background-color: #f0ffff70;
 }
 
 
 .city-bar {
     background-color: #8BC6EC;
     background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%);
+}
+
+.full-width{
+    width: 100vW;
 }

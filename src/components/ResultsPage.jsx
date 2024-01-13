@@ -12,6 +12,7 @@ const ResultsPage = () => {
                 <Today cityName={params.elementId.toUpperCase()}/>
             </Row>
             <Row className="full-width mt-5">
+                <p className="fw-bold fs-3 text-white">Next few Hours:</p>
                 <Tomorrow cityName={params.elementId.toUpperCase()}/>
             </Row>
         </Container>
