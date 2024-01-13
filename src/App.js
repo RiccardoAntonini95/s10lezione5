@@ -13,7 +13,7 @@ function App() {
       <MyNavbar />
       <Routes>
         <Route path="/" element={<SearchPage />}/>
-        <Route path="/ResultsPage/:elementId" element={<ResultsPage />}/>    questo deve ottenere tramite path il value della ricerca
+        <Route path="/ResultsPage/:elementId" element={<ResultsPage />}/>
       </Routes>
       </BrowserRouter>
 

@@ -10,7 +10,6 @@ const Today = ({cityName}) => {
     const [isLoading, setIsLoading] = useState(false)
     useEffect(() => {
         getForecast()
-        console.log("useEffect")
     }, [])
 
     const getForecast = async () => {
@@ -20,9 +19,7 @@ const Today = ({cityName}) => {
                 if(response.ok){
                     setIsLoading(false)
                     const data = await response.json()
-                    console.log(data)
                     setForecastData(data)
-                    console.log(forecastData)
                 } else {
                     console.log("Errore del fetch")
                 }
