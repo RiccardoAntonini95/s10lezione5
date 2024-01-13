@@ -9,7 +9,7 @@ const ResultsPage = () => {
         <>
         <Container className="results-container w-100 m-0">
             <Row className="full-width mt-5">
-                {/* <Today cityName={params.elementId.toUpperCase()}/> */}
+                <Today cityName={params.elementId.toUpperCase()}/>
             </Row>
             <Row className="full-width mt-5">
                 <Tomorrow cityName={params.elementId.toUpperCase()}/>
