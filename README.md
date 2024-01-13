@@ -1,6 +1,14 @@
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+React version 18.2.0, Bootstrap version 5.3.2 and React Bootstrap 2.9.1
+
+Before starting, run these commands from the IDE terminal
+
+1. npm i
+2. npm i boostrap react-bootstrap react-bootstrap-icons
+3. npm i date-fns
+4. npm i react-router-dom
 
 ## Available Scripts
 
